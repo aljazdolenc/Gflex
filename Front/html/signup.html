@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="shortcut icon" href="../jpg/logo-tab.jpg">
+    
+    <title>Gflex :: Sign in</title>
+
+</head>
+<body>
+
+<!-- odzadje -->
+
+  <div class="rgb">
+    <div class="telo">
+
+<!-- puščica nazaj -->
+
+    <a class="arrow" href="../html/login.html" >
+
+        <div class="uparrow line"></div>
+        <div class="downarrow line"></div>
+        <div class="midarrow line"></div>
+
+    </a>
+
+<!-- x gumb -->
+
+    <a class="x" href="../html/index.html" >
+
+        <div class="line1 line"></div>
+        <div class="line2 line"></div>
+
+    </a>
+
+<!-- ohišje -->
+
+   <div class="ohišje" data-aos="zoom-in" data-aos-delay="1000">
+
+          <div class="signin">SIGN IN</div>
+
+          <div class="form1 form" data-aos="zoom-in" data-aos-delay="400">
+        <div class="ime">
+          <input for="username" type="search" id="username" required autocomplete="off">
+          <label  class="label-name" >
+            <span class="content-name" >Username</span>
+          </label>
+        </div>
+          </div>
+        
+          <div class="already-ex sub-text" id="already-ex">Already exists!</div>
+
+          <div class="form2 form" data-aos="zoom-in" data-aos-delay="400">
+          <div class="ime">
+            <input for="email" type="name" id="email" autocomplete="off" required>
+            <label  class="label-name">
+              <span class="content-name">Email</span>
+            </label>
+          </div>
+          </div>
+
+          <div class="already-use sub-text" id="already-use">Already in use!</div>
+          <div class="to-short sub-text" id="to-short">Must contain at least 6 characters!</div>
+
+          <div class="form3 form" data-aos="zoom-in" data-aos-delay="400">
+          <div class="ime">
+            <input for="password1" type="password" id="password1" required>
+            <label  class="label-name">
+              <span class="content-name">Password</span>
+            </label>
+          </div>
+          </div>
+
+          <div class="form4 form" data-aos="zoom-in" data-aos-delay="400">
+          <div class="ime">
+            <input for="password2" type="password" id="password2"   required>
+            <label  class="label-name">
+              <span class="content-name">Confirm password</span>
+            </label>
+          </div>
+          </div>
+
+          <div class="not-match sub-text" id="not-match">Passwords do not match!</div>
+
+          <!-- Gumb -->
+          <div class="btn-wrap">
+            <button type="submit" class="button" onclick="wholeCheck()">ENTER</button>
+          </div>
+      
+        </div>
+
+    </div>
+  </div>
+  
+</body>
+</html>
+
+<!-- javascript -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="../java/register.js"></script>
+
+
+
+
+
+
+
