@@ -588,25 +588,19 @@ h1,
 .c-logo1 {
   height: 20px;
   width: 20px;
-  background-image: url("/jpg/telefon.png");
+  background-image: url("/Gflex.github.io/jpg/telefon.png");
   background-size: cover;
 }
 .c-logo2 {
   height: 20px;
   width: 20px;
-  background-image: url("/jpg/mail.png");
+  background-image: url("/Gflex.github.io/jpg/mail.png");
   background-size: cover;
 }
 .c-logo3 {
   height: 20px;
   width: 20px;
-  background-image: url("/jpg/location.png");
-  background-size: cover;
-}
-.c-logo3 {
-  height: 20px;
-  width: 20px;
-  background-image: url("/jpg/location.png");
+  background-image: url("/Gflex.github.io/jpg/location.png");
   background-size: cover;
 }
 .c2 {
