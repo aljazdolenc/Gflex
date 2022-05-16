@@ -336,10 +336,10 @@ h1,
 .sprednja,
 .zadnja,
 .video {
-  height: 300px;
-  min-height: 300px;
-  width: 220px;
-  min-width: 220px;
+  height: 270px;
+  min-height: 270px;
+  width: 200px;
+  min-width: 200px;
   margin: 2vh 1vw;
   grid-column-start: 1;
   grid-column-end: 1;
